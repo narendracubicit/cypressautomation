@@ -6,3 +6,6 @@ Set up the cypress E2E dashboard.
 From Cypress Web UI Run the spec file under e2e.
 
 *Used Cypress inbuilt assertions .should
+* Files*
+cypressautomation/cypress/e2e/searchformtest.cy.js 
+cypressautomation/cypress/pages/mainscreen.js 
