@@ -6,7 +6,7 @@ class mainscreen {
     return cy.get('input#search-input')
   }
   getSubmitButton() {
-      return cy.get('input#search-button') 
+      return cy.get('#search-button') 
     }
   getEmptyQueryErrorMessage() {
     return cy.get("div#error-empty-query") 
