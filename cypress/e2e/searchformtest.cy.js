@@ -4,7 +4,7 @@ describe('QA Search - Validate search form', () => {
   var mainpage = new mainscreen();
 
   beforeEach(function() {
-    cy.visit("https://www.dummyrandomwebsite.com/"); 
+    cy.visit("https://codility-frontend-prod.s3.amazonaws.com/media/task_static/qa_search/6f03f4361b080eeb747193aadd94cd2b/static/attachments/reference_page.html"); 
   });
 
   it('Scenario 01: Validate the main screen of application UI - Search input textbox and submit button', () => {
